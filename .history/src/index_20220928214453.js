@@ -5,7 +5,6 @@ import App from './App';
 import Home from './Pages/Home';
 import Prime from './Pages/Prime';
 import Table from './Pages/Table';
-import Layout from './Pages/Layout';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
