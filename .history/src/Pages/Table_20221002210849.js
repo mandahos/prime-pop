@@ -1,8 +1,20 @@
-import React from "react";
-// import { Container } from "react-bootstrap";
-// import { useResolvedPath } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Container } from "react-bootstrap";
 
 function Table(){
+    const[user, setUser] = useState([]);
+
+    useEffect(() => {
+        const getuser = async ()=>
+ {
+    const res = fetch("http:http://localhost:3000/users");
+    const getdata =  res.json();
+    setUser(getdata);
+    console.log(getuser);
+ }   
+    getuser();
+},[]);
+
     return(
 
         <div className="app-container">
@@ -17,15 +29,12 @@ function Table(){
                </tr>
             </thead>
             <tbody>
-                
-                    <tr >
+                <tr>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-               
-                
             </tbody>
         </table>
         </div>

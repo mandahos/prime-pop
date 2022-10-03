@@ -9,15 +9,15 @@ function Prime() {
                 break;
             }
         }
-        if (n === i)
-        {
+        // if (n === i)
+        // {
         document.write(i+"<br>");
         }
     }
 
 }
 //math right, need to print on page//in console 
-
+console.log(Prime(2));
 
 
 export default Prime;

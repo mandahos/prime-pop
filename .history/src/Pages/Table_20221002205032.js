@@ -1,6 +1,5 @@
 import React from "react";
-// import { Container } from "react-bootstrap";
-// import { useResolvedPath } from "react-router-dom";
+
 
 function Table(){
     return(
@@ -17,15 +16,12 @@ function Table(){
                </tr>
             </thead>
             <tbody>
-                
-                    <tr >
-                    <td></td>
+                <tr>
+                    <td>{`$first_name`}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-               
-                
             </tbody>
         </table>
         </div>

@@ -1,6 +1,4 @@
 import React from "react";
-// import { Container } from "react-bootstrap";
-// import { useResolvedPath } from "react-router-dom";
 
 function Table(){
     return(
@@ -17,15 +15,12 @@ function Table(){
                </tr>
             </thead>
             <tbody>
-                
-                    <tr >
+                <tr>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-               
-                
             </tbody>
         </table>
         </div>

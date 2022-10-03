@@ -17,7 +17,7 @@ function Prime() {
 
 }
 //math right, need to print on page//in console 
-
+console.log(Prime(2));
 
 
 export default Prime;

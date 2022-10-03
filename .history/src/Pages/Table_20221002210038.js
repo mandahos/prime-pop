@@ -1,8 +1,17 @@
-import React from "react";
-// import { Container } from "react-bootstrap";
-// import { useResolvedPath } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Container } from "react-bootstrap";
+import { getSearchParamsForLocation } from "react-router-dom/dist/dom";
+
 
 function Table(){
+    const[user, setUser] = useState([]);
+
+    useEffect(() => {
+        const getuser = async ()=>
+ {
+    const re= fetch();
+ }    })
+
     return(
 
         <div className="app-container">
@@ -17,15 +26,12 @@ function Table(){
                </tr>
             </thead>
             <tbody>
-                
-                    <tr >
+                <tr>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-               
-                
             </tbody>
         </table>
         </div>
